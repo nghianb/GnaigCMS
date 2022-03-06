@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "dotenv-expand": "^5.1.0",
+    "laravel-mix": "^6.0.31",
+    "laravel-mix-merge-manifest": "^2.0.0",
+    "lodash": "^4.17.21",
+    "postcss": "^8.3.7",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "@alpinejs/persist": "^3.9.0",
+    "@tabler/core": "^1.0.0-beta9",
+    "alpinejs": "^3.9.0",
+    "autosize": "^5.0.1",
+    "imask": "^6.4.2"
+  }
+}
