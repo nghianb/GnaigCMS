@@ -38,6 +38,6 @@ class BaseController extends BaseCoreController
      */
     public function redirectToRoute($routeName, array $parameters = []): RedirectResponse
     {
-        return redirect()->route($routeName, $parameters = []);
+        return redirect()->route($routeName, $parameters);
     }
 }
