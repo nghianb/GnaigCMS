@@ -54,4 +54,5 @@
             </div>
         </div>
     </div>
+    @include('dashboard::partials.toast')
 @endsection

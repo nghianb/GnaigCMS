@@ -39,6 +39,7 @@ class DashboardServiceProvider extends ServiceProvider
     {
         $this->app->register(RouteServiceProvider::class);
         $this->app->register(SidebarServiceProvider::class);
+        $this->app->register(ToastServiceProvider::class);
     }
 
     /**
