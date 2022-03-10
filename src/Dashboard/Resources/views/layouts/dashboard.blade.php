@@ -16,7 +16,7 @@
 {{--                        @include('dashboard::partials.notification')--}}
                     </div>
                     <div class="nav-item dropdown">
-{{--                        @include('dashboard::partials.mini-profile')--}}
+                        @include('dashboard::partials.mini-profile')
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-menu">
@@ -30,12 +30,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-nav flex-row order-md-last">
-                    <div class="d-none d-md-flex">
+                    <div class="d-none d-md-flex me-3">
                         @include('dashboard::partials.theme-switch')
 {{--                        @include('dashboard::partials.notification')--}}
                     </div>
                     <div class="nav-item dropdown">
-{{--                        @include('dashboard::partials.mini-profile')--}}
+                        @include('dashboard::partials.mini-profile')
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-menu">

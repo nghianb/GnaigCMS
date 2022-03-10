@@ -1,0 +1,15 @@
+{
+    "name": "User",
+    "alias": "user",
+    "description": "",
+    "keywords": [],
+    "priority": 1,
+    "providers": [
+        "Modules\\User\\Providers\\UserServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [
+        "Dashboard"
+    ]
+}
