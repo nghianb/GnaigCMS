@@ -1,0 +1,23 @@
+{
+    "name": "nghianb/customer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nguyễn Bá Nghĩa",
+            "email": "nghianb.it@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Customer\\": ""
+        }
+    }
+}
