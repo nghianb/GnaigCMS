@@ -24,6 +24,7 @@
   "dependencies": {
     "@alpinejs/persist": "^3.9.0",
     "@tabler/core": "^1.0.0-beta9",
+    "@tabler/icons": "^1.56.0",
     "alpinejs": "^3.9.0",
     "autosize": "^5.0.1",
     "imask": "^6.4.2"

@@ -6,6 +6,7 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\RedirectResponse;
 use Modules\Core\Http\Controllers\BaseController as BaseCoreController;
 use Modules\Dashboard\Services\PageView\PageView;
+use Modules\Dashboard\Services\TableView\TableView;
 
 class BaseController extends BaseCoreController
 {
@@ -28,6 +29,18 @@ class BaseController extends BaseCoreController
     {
         return view($viewName, array_merge($data, [
             'page' => $this->page
+        ]));
+    }
+
+    /**
+     * @param TableView $tableView
+     * @param array $data
+     * @return Renderable
+     */
+    public function respondTableView(TableView $tableView, array $data = []): Renderable
+    {
+        return $this->respondView('dashboard::pages.table-view', array_merge($data, [
+            'tableView' => $tableView
         ]));
     }
 
